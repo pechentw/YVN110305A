@@ -6,7 +6,7 @@ import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
     ListView lv;
-    String[] fruits = {"蘋果", "香蕉", "鳳梨", "芭樂", "檸檬","a","b","c","d","f","g","h","i"};
+    String[] fruits = {"蘋果", "香蕉", "鳳梨", "芭樂", "檸檬","aa","bb","cc","dd","ff","gg","hh","ii"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
