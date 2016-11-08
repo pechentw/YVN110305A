@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     class MyAdapter extends BaseAdapter {
         @Override
         public int getCount() {
-            return 5;
+            return fruits.length;
         }
         @Override
         public Object getItem(int position) {
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
             TextView tv = new TextView(MainActivity.this);
-            tv.setText("Hello World" + position);
+            tv.setText(fruits[position]);
             return tv;
         }
     }
