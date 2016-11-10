@@ -81,6 +81,8 @@ public class MyAdapter1 extends BaseAdapter {
         holder.chk.setChecked(chks[position]);
         return convertView;
     }
+
+
     static class ViewHolder
     {
         TextView tv;
